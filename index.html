@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"  defer></script>
+    <title>Coming soon</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-image"></div>
+
+        <main class="wrapper">
+            <div class="countdown-wrapper">
+                <div class="title-wrapper">
+                    <h1 class="ready-to-launch">Ready to Launch in...</h1>
+                </div>
+                <div class="loading-spinner">
+                    <img id="loading" class="loading" src="./images/loading.svg" alt="loading">
+                </div>
+                <div id="countdown" class="countdown">
+                    <div class="time">
+                        <small>dias</small>
+                        <strong id="days">00</strong>
+                    </div>
+                    <div class="time">
+                        <small>horas</small>
+                        <strong id="hours">00</strong>
+                    </div>
+                    <div class="time">
+                        <small>minutos</small>
+                        <strong id="minutes">00</strong>
+                    </div>
+                    <div class="time">
+                        <small>segundos</small>
+                        <strong id="seconds">00</strong>
+                    </div>
+                </div>
+                <div class="signup-wrapper">
+                    <p class="signup">Inscreva-se para saber mais sobre o lançamento</p>
+                    <a id="anchor-signup" class="anchor-signup">Inscreva-se</a>
+                </div>
+            </div>
+    
+            <div class="rocket-container">
+                <img src="./images/rocket.svg" alt="Rocket launch">
+            </div>
+        </main>
+        <div class="popup-wrapper popup-invisible">
+            <div class="popup">
+                <h2 class="modal-title">Inscreva-se para ser notificado</h2>
+                <form action="" method="post">
+                    <div class="input-field">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name">
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="name" id="email">
+                        <div class="underline"></div>
+                    </div>
+    
+                    <div class="input-field">
+                        <button id="form-submit" type="button" class="button-submit">Enviar</button>
+                    </div>
+            </form>
+            </div>
+        </div>
+
+        <footer class="footer">Footer</footer>
+    </div>
+</body>
