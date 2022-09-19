@@ -1,3 +1,10 @@
-# Countdown to an certain event app
+# Countdown 
 
-## README under construction
+![preview](./.github/preview.png)
+
+> Countdown web page
+
+## 🔨 Techs:
+- HTML
+- CSS
+- JavaScript
